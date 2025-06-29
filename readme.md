@@ -29,12 +29,6 @@ This project demonstrates a basic, in-memory UDP-based load balancer where serve
 # Using g++ directly:
 g++ -std=c++17 -pthread load-balancer.cpp serverManager.cpp consistentHashing.cpp -o udp_load_balancer
 
-# Or with CMake:
-mkdir build && cd build
-cmake ..
-make
-```
-
 ## Future Improvements
 
 - **TTL-Based Eviction**: Remove servers automatically if no `PING` received within a configurable timeout.
