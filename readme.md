@@ -8,7 +8,7 @@ This project demonstrates a basic, in-memory UDP-based load balancer where serve
 
 * **Consistent Hashing**: Client requests (UDP or TCP) are mapped to backend servers using a consistent hash ring built on each server's IP and port. This ensures minimal remapping when servers join or leave.
 
-* **In-Memory State**: All server metadata is stored in process memory, avoiding external dependencies (no database).
+* **In-Memory State**: All server metadata is stored in process memory.
 
 * **Stateless Forwarding**: Client requests are forwarded statelessly to chosen servers, making the balancer simple and easy to extend.
 
