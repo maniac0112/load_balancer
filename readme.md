@@ -1,6 +1,6 @@
 # Simple UDP Load Balancer with Consistent Hashing
 
-This toy project demonstrates a basic, in-memory UDP-based load balancer where servers self-register via UDP, send periodic pings to stay active, and client requests are routed using consistent hashing for session affinity.
+This project demonstrates a basic, in-memory UDP-based load balancer where servers self-register via UDP, send periodic pings to stay active, and client requests are routed using consistent hashing for session affinity.
 
 ## Features
 
